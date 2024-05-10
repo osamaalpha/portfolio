@@ -1,0 +1,33 @@
+.img-about {
+  width: 700px;
+  border: 1px solid transparent;
+  border-radius: 31px;
+}
+
+.separate-line {
+  border-left: 1px solid #000;
+  height: 500px;
+}
+
+.about-section {
+  display: flex;
+  gap: 100px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-section {
+    gap: 50px;
+  }
+  .img-about {
+    width: 350px;
+  }
+
+  .separate-line {
+    display: none;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+}

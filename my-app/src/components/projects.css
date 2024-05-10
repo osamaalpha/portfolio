@@ -1,0 +1,67 @@
+.view-project-button {
+  color: #996;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #996;
+  border-radius: 31px;
+  margin-top: 40px;
+  padding: 16px 24px;
+  font-family: Neuemontreal, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1em;
+  transition: color 0.3s cubic-bezier(0.47, 0, 0.745, 0.715),
+    background-color 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+  cursor: pointer;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.view-project-button:hover {
+  color: white;
+  background-color: #996;
+}
+
+.project-img {
+  width: 700px;
+  border: 1px solid transparent;
+  border-radius: 31px;
+}
+
+.project-img:hover {
+  border-radius: 0;
+}
+
+.project-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.separate-line {
+  border-left: 1px solid #000;
+  height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 350px;
+  }
+
+  .separate-line {
+    display: none;
+  }
+
+  .project-section {
+    flex-direction: column;
+  }
+
+  .view-project-button {
+    margin-bottom: 20px;
+  }
+  .project-description {
+    width: 350px;
+  }
+}
