@@ -50,6 +50,10 @@
     width: 350px;
   }
 
+  .project-img-container {
+    margin-left: -15px;
+  }
+
   .separate-line {
     display: none;
   }
