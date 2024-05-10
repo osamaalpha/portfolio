@@ -47,7 +47,7 @@ export const Projects = () => {
                 </a>
               </div>
               <div className="separate-line"></div>
-              <div>
+              <div className="project-img-container">
                 {" "}
                 <img className="project-img" src={project.picture} />
               </div>

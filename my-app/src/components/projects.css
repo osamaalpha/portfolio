@@ -49,6 +49,9 @@
   .project-img {
     width: 350px;
   }
+  .project-img-container {
+    margin-left: 10px;
+  }
 
   .separate-line {
     display: none;
