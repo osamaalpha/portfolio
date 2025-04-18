@@ -30,7 +30,7 @@ export const Contact = () => {
           <h2>
             <a
               style={{ color: "black" }}
-              href="https://drive.google.com/file/d/1PVaJ4YnuPXa-0AlLKXd17DFnV72_kgKo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1srixuxLpw9Ay_9voQ_IT6Xk-6LPAqzcH/view?usp=sharing"
             >
               Resume
             </a>
