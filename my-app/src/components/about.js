@@ -26,7 +26,7 @@ export const About = () => {
             letterSpacing: "2px",
           }}
         >
-          2-3 years of experience in building and maintaining production
+          3+ years of experience in building and maintaining production
           applications. Worked both on the frontend and backend.Experienced in
           building e-commerce websites.
         </h4>
